@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2 - imtihon</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-  <link rel="stylesheet" href="./css/normalize_styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- <link rel="stylesheet" href="./css/normalize_styles.css"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&  display=swap" rel="stylesheet">
 </head>
@@ -55,7 +55,7 @@
                 <a class="links" target="_blank" href="#">Kontaktlar</a>
               </li>
               <li class="nav_phone_link">
-                <a class="phone_link" target="_blank" href="#">+99890 921 37 11</a>
+                <a class="phone_link" href="tel:+998909213711">+99890 921 37 11</a>
               </li>
             </ul>
           </div>
@@ -183,7 +183,7 @@
             </li>
           </ol>
           </section>
-            </div>
+          </div>
 
 
 
@@ -205,7 +205,14 @@
         </label>
 
         <label for="xizmat_turi">
-          <select class="input_xizmat_turi" name="xizmat_turi" id="xizmat_turi">Xizmat turi</select>
+          <select class="input_xizmat_turi" name="xizmat_turi" id="xizmat_turi">
+            <option value="xizmat_turi" selected disabled>Xizmat turi</option>
+            <option value="smm">SMM</option>
+            <option value="telegram-bot">Telegram bot</option>
+            <option value="crm">CRM</option>
+            <option value="vebsayt_tuzish">Vebsayt tuzish</option>
+            <option value="grafik-dizayn">Grafik dizayn</option>
+          </select>
         </label>
 
         <button class="submit_btn" type="submit">Buyurtma berish</button>
@@ -229,12 +236,24 @@
       <div class="sites_parent">
         <ul class="sites">
           <li><h3 class="site">Sayt sahifalari</h3></li>
-          <li><a class="sites_item" href="#">Bosh sahifa</a></li>
-          <li><a class="sites_item" href="#">Xizmatlar</a></li>
-          <li><a class="sites_item" href="#">Portfolio</a></li>
-          <li><a class="sites_item" href="#">Jamoa</a></li>
-          <li><a class="sites_item" href="#">Blog</a></li>
-          <li><a class="sites_item" href="#">Kontaktlar</a></li>
+          <li>
+            <a class="sites_item" href="#">Bosh sahifa</a>
+          </li>
+          <li>
+            <a class="sites_item" href="#">Xizmatlar</a>
+          </li>
+          <li>
+            <a class="sites_item" href="#">Portfolio</a>
+          </li>
+          <li>
+            <a class="sites_item" href="#">Jamoa</a>
+          </li>
+          <li>
+            <a class="sites_item" href="#">Blog</a>
+          </li>
+          <li>
+            <a class="sites_item" href="#">Kontaktlar</a>
+          </li>
         </ul>
       </div>
 
