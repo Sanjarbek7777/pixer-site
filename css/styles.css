@@ -400,6 +400,10 @@ body{
   margin-left: 65px;
 }
 
+.hero_video{
+  border-radius: 5px;
+}
+
 .graphic_link{
   margin-top: 48px;
   width: 320px;
